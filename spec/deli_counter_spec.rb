@@ -51,7 +51,7 @@ describe 'Deli Counter' do
         take_a_number(katz_deli, "Ada")
         take_a_number(katz_deli, "Grace")
         take_a_number(katz_deli, "Kent")
-        expect(katz_deli).to eq(%w(Ada Grace Kent))
+        expect(katz_deli).to eq(["Ada", "Grace", "Kent"])
       end
     end
   end
